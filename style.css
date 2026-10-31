@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1f6;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5b2a86;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #e6d6f2;
+    margin-bottom: 15px;
+}
+
+.contact h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 4px 0;
+}
+
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+section {
+    background-color: white;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #5b2a86;
+}
+
+h2 {
+    color: #5b2a86;
+    font-size: 22px;
+    margin-bottom: 12px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+h4 {
+    color: #222222;
+    font-size: 17px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+th {
+    width: 40%;
+    color: #5b2a86;
+}
+
+.school {
+    margin-bottom: 15px;
+}
+
+.years {
+    display: inline-block;
+    background-color: #e6d6f2;
+    color: #5b2a86;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 12px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.referees {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.referee {
+    flex: 1;
+    min-width: 200px;
+    background-color: #f9f6fb;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
